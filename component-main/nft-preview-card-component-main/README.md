@@ -1,5 +1,3 @@
-Live page:
-https://dibss.github.io/nft-preview-card-component-main/
 ## Table of contents
 
 - [Built with](#built-with)
