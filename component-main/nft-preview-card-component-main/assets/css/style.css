@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+html{font-family: 'Outfit', sans-serif;}
+a{text-decoration: none;}
+
+.text-softblue{color: hsl(215, 51%, 70%);}
+.text-cyan{color: hsl(178, 100%, 50%);}
+.bg-verydarkblue{background-color: hsl(217, 54%, 11%);}
+.bg-darkblue{background-color: hsl(216, 50%, 16%);}
+.bg-blue{background-color: hsl(215, 32%, 27%);}
+.text-white{color: hsl(0, 0%, 100%);}
+
+.img-respo{max-width: 100%; height: auto;}
+.row{display: flex; flex-wrap: wrap;}
+.jc-between{justify-content: space-between;}
+.va-middle{vertical-align: middle;}
+.p-relative{position: relative;}
+.nft-img{border-radius: 15px;}
+
+.img-avatar{width: 10%; height: auto; border: 0.5px solid #fff; border-radius: 50%;}
+
+body{display: flex; flex-wrap: wrap; justify-content: center; align-items: center; height: 100vh;}
+.container{padding: 1em 1em 1.5em; border-radius: 15px;}
+.text{max-width: 90%; margin: 0 auto;}
+.text h2{font-size: 1.4em; margin: 1em 0;}
+.text span{font-weight: lighter;}
+.text > div:nth-of-type(2){margin: 1em 0;}
+.text > div:last-of-type{margin: 1em 0 0;}
+.col-10{max-width: 83.333%; flex-basis: 83.333%;}
+
+hr{border-color: hsl(215, 51%, 70%);}
+
+.attribution { font-size: 11px; text-align: center; margin: 1em 0;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.overlay{
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 255, 247, 0.5);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.overlay img{
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.p-relative:hover .overlay,
+.p-relative:hover .overlay img{
+  display: unset;
+}
+
+.text h2:hover,
+.author:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+@media screen and (min-width: 36em) {
+  .col-sm-8{max-width: 66.666%; flex-basis: 66.666%;}
+}
+
+@media screen and (min-width: 48em) {
+  .col-md-6{max-width: 50%; flex-basis: 50%;}
+}
+
+@media screen and (min-width: 62em) {
+  .col-lg-4{max-width: 33.333%; flex-basis: 33.333%;}
+}
+
+@media screen and (min-width: 75em) {
+  .col-xl-3{max-width: 25%; flex-basis: 25%;}
+}

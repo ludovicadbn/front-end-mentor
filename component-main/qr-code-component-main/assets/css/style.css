@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+html{font-family: 'Outfit', sans-serif;}
+.img-respo{max-width: 100%; height: auto; border-radius: 15px;}
+
+.bg-white{background-color: hsl(0, 0%, 100%);}
+.bg-lightgray{background-color: hsl(212, 45%, 89%);}
+.bg-grayshblue{background-color: hsl(220, 15%, 55%);}
+.text-darkblue{color: hsl(218, 44%, 22%);}
+
+.col-10{max-width: 83.333%; flex-basis: 83.333%;}
+
+body{display: flex; flex-wrap: wrap; justify-content: center; align-items: center; height: 100vh;}
+.container{padding: 1em 1em 1.5em; border-radius: 15px;}
+.text{width: 90%; margin: 0 auto; text-align: center;}
+.text h2{font-size: 1.6rem; margin: 1em 0 0.5em;}
+.text span{color: gray; font-size: 1rem;}
+
+.attribution { font-size: 11px; text-align: center; margin-top: 1.5em;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 36em) {
+  .col-sm-8{max-width: 66.666%; flex-basis: 66.666%;}
+}
+
+@media screen and (min-width: 48em) {
+  .col-md-6{max-width: 50%; flex-basis: 50%;}
+}
+
+@media screen and (min-width: 62em) {
+  .col-lg-4{max-width: 33.333%; flex-basis: 33.333%;}
+}
+
+@media screen and (min-width: 75em) {
+  .col-xl-3{max-width: 25%; flex-basis: 25%;}
+}
